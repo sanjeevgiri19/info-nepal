@@ -39,7 +39,7 @@ const MainText = ({exploreToggle}) => {
         </Link>
         <button
           onClick={showAlert}
-          className="bg-violet-600 hover:bg-blue-700 px-4 py-2 rounded font-semibold text-white"
+          className="bg-violet-600 hover:bg-blue-700 px-4 py-2 cursor-pointer rounded font-semibold text-white"
         >
           Subscribe Now
         </button>
