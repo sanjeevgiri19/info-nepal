@@ -1,0 +1,31 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import "tailwindcss";
+
+
+.typewriter {
+    display: inline-block;
+    overflow: hidden;
+    width: 0ch;
+    white-space: nowrap;
+    border-right: 0.15em solid orange; /* The cursor */
+    animation: text 4s steps(22) infinite; 
+  }
+  
+  @keyframes text {
+    0%{
+        width: 0ch;
+    }
+    30%{
+        width: 22ch;      /* ch means character */ 
+      
+    }
+  }
+
+
+  /* For a typewriter effect, you might use width: 0ch; to start with the element’s width at zero characters and then animate it to reveal the text one character at a time.
+  i.e from 0ch to 22characters */
+
+  
