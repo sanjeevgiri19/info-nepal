@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 
 const Logo = () => {
@@ -12,7 +11,7 @@ const Logo = () => {
     <div>
       <img
         className="h-0 md:h-20  cursor-pointer"
-        src="/logos.png"
+        src="/infoNepal.png"
         alt="Logo"
         onClick={handleLogoClick}
       />

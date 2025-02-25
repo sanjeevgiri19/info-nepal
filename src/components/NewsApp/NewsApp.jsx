@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
 import Navbar from "../Navbar/Navbar";
-import Loader from "../Loader";
+import Loader from "../things/Loader";
 
 const NewsApp = () => {
   const [newsData, setNewsData] = useState([]); // Initialize as an empty array

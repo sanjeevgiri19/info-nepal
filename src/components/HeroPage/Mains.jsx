@@ -2,7 +2,7 @@ import HorizontalScroll from '../framerMotion/HorizontalScroll'
 
 import MainText from './MainText';
 import Footer from '../framerMotion/Footer';
-import Testimonials from '../Testimonials';
+import Testimonials from '../things/Testimonials';
 import TopNav from './TopNav';
 // import { GlobeDemo } from '../Globe';
 
