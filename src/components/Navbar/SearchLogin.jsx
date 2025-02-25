@@ -4,7 +4,7 @@ const SearchLogin = ({ handleInput, searchData, getData }) => {
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
-      console.log("Key Pressed Down");
+      // console.log("Key Pressed Down");
 
       getData();
     }

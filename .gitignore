@@ -10,6 +10,7 @@ lerna-debug.log*
 .env
 node_modules
 newsappapi.jsx
+newsapp.txt
 App.txt
 dist
 dist-ssr
